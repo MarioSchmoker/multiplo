@@ -1,12 +1,12 @@
 let btnCalcular = document.getElementById("btnCalcular");
 //hay 2 errores en tu code. num11 y num21 no se usan nunca
 let num11 = document.getElementById("num1");
-let num21 = document.getElementById("num2");
+let num22 = document.getElementById("num2");
 rotulo1.innerHTML = "Ingrese 1° número";
 rotulo2.innerHTML = "Ingrese 2° número";
 
-function esMultiplo(num1: number, num2: number): boolean {
-  return num1 % num2 === 0;
+function esMultiplo(num11: number, num22: number): boolean {
+  return num11 % num22 === 0;
 }
 
 btnCalcular.addEventListener("click", () => {
